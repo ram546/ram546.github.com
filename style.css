@@ -1,0 +1,33 @@
+		body { 
+			background-color: Silver; 
+			font-family: Arial, Verdana, sans-serif; 
+			font-size: 18px; 
+			color: #00008B;
+		}
+		form { 
+			border-style: groove; 
+			border-width: 1px; 
+			border-color: Blue; 
+			width: 240px; 
+			padding: 25px; 
+			background-color: Aqua; 
+		}
+		input { 
+			width: 230px; 
+			color: White; 
+			background: #FF741B; 
+			margin-bottom: 5px; 
+		}
+		input.submitButton { 
+			width: 80px; 
+			color: Black; 
+			background-color: White; 
+			border-style: dotted; 
+			border-width: 2px; 
+			border-color: Blue; 
+			margin-top: 15px; 
+		}
+		
+		/*#ac, #ab{
+			display:none;
+		}*/
