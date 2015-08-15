@@ -4,7 +4,7 @@
 			font-size: 18px; 
 			color: #00008B;
 		}
-		form { 
+		.box { 
 			border-style: groove; 
 			border-width: 1px; 
 			border-color: Blue; 
@@ -18,7 +18,7 @@
 			background: #FF741B; 
 			margin-bottom: 5px; 
 		}
-		input.submitButton { 
+		.submitButton { 
 			width: 80px; 
 			color: Black; 
 			background-color: White; 

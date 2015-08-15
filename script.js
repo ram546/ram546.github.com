@@ -1,15 +1,16 @@
 function myfun(){
-	var uname = document.getElementById('username'),
-		passwd =document.getElementById("password");
-	// $("#ab").hide();
-	if(uname.value == "" && passwd.value == ""){
-		document.getElementById("ac").style.display = "block";
+	var uname = $("#username").val();
+	var passwd = $("#password").val();
+	if(uname == "" && passwd == ""){
+		$("#ac").css({"display": "block"});
+		$("#ab").css({"display": "none"});
 	}
-	else if(uname.value == "mohit" && passwd.value == "ram"){
+	else if(uname == "mohit" && passwd == "ram"){
 		window.open("./home.html");
 	}	
 	else{
-		document.getElementById("ab").style.display = "block";
+		$("#ac").css({"display": "none"});
+		$("#ab").css({"display": "block"});
 	}
 		
 }
