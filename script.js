@@ -1,7 +1,7 @@
 function myfun(){
 	var uname = document.getElementById('username'),
 		passwd =document.getElementById("password");
-	$("#ab").hide();
+	// $("#ab").hide();
 	if(uname.value == "" && passwd.value == ""){
 		document.getElementById("ac").style.display = "block";
 	}
