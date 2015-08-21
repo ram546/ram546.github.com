@@ -1,0 +1,22 @@
+  body {
+    background: url("./truck.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-color: #cccccc;*/
+}
+.truckInput_form{
+    background-color: rgba(255,255,255,0.5);
+    border: 1px solid #888;
+    display: inline-block;
+    padding:30px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.selectList {
+	width: 300px;
+}
+#datetime {
+	width: 300px;
+}

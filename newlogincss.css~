@@ -1,0 +1,37 @@
+  body {
+    background: url("./bg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-color: #cccccc;*/
+}
+  .login_form{
+    background-color: rgba(255,255,255,0.5);
+    border: 1px solid #888;
+    display: inline-block;
+    padding:30px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+ .form-group{
+    width: 300px; 
+ }
+ .msg{
+    font-size: 13px;
+    width: 300px;
+    /*display: none;*/
+ }
+ #signUpButton {
+    width: 300px;
+ }
+ #terms{
+    font-size: 12px;
+    width: 300px;
+    color: #006400;
+    font-weight: bold;
+ }
+ #emptyFields, #emailError, #mobError, #passError, #userError, #emptyError, #emptyError1{
+    display: none;
+ }
